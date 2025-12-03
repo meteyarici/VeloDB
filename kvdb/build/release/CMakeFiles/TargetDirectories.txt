@@ -1,0 +1,8 @@
+/Users/pro/Works/VeloDB/kvdb/build/release/CMakeFiles/kvdb.dir
+/Users/pro/Works/VeloDB/kvdb/build/release/CMakeFiles/kvdb-server.dir
+/Users/pro/Works/VeloDB/kvdb/build/release/CMakeFiles/test.dir
+/Users/pro/Works/VeloDB/kvdb/build/release/CMakeFiles/edit_cache.dir
+/Users/pro/Works/VeloDB/kvdb/build/release/CMakeFiles/rebuild_cache.dir
+/Users/pro/Works/VeloDB/kvdb/build/release/tests/CMakeFiles/test.dir
+/Users/pro/Works/VeloDB/kvdb/build/release/tests/CMakeFiles/edit_cache.dir
+/Users/pro/Works/VeloDB/kvdb/build/release/tests/CMakeFiles/rebuild_cache.dir

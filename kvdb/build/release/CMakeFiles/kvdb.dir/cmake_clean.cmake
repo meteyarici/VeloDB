@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/kvdb.dir/src/commands/command_registry.cpp.o"
+  "CMakeFiles/kvdb.dir/src/commands/command_registry.cpp.o.d"
+  "CMakeFiles/kvdb.dir/src/commands/del_command.cpp.o"
+  "CMakeFiles/kvdb.dir/src/commands/del_command.cpp.o.d"
+  "CMakeFiles/kvdb.dir/src/commands/expire_command.cpp.o"
+  "CMakeFiles/kvdb.dir/src/commands/expire_command.cpp.o.d"
+  "CMakeFiles/kvdb.dir/src/commands/get_command.cpp.o"
+  "CMakeFiles/kvdb.dir/src/commands/get_command.cpp.o.d"
+  "CMakeFiles/kvdb.dir/src/commands/set_command.cpp.o"
+  "CMakeFiles/kvdb.dir/src/commands/set_command.cpp.o.d"
+  "CMakeFiles/kvdb.dir/src/db/hashtable.cpp.o"
+  "CMakeFiles/kvdb.dir/src/db/hashtable.cpp.o.d"
+  "CMakeFiles/kvdb.dir/src/db/shard.cpp.o"
+  "CMakeFiles/kvdb.dir/src/db/shard.cpp.o.d"
+  "CMakeFiles/kvdb.dir/src/db/snapshot.cpp.o"
+  "CMakeFiles/kvdb.dir/src/db/snapshot.cpp.o.d"
+  "CMakeFiles/kvdb.dir/src/db/storage_engine.cpp.o"
+  "CMakeFiles/kvdb.dir/src/db/storage_engine.cpp.o.d"
+  "CMakeFiles/kvdb.dir/src/db/ttl_manager.cpp.o"
+  "CMakeFiles/kvdb.dir/src/db/ttl_manager.cpp.o.d"
+  "CMakeFiles/kvdb.dir/src/kvdb.cpp.o"
+  "CMakeFiles/kvdb.dir/src/kvdb.cpp.o.d"
+  "CMakeFiles/kvdb.dir/src/model/entry.cpp.o"
+  "CMakeFiles/kvdb.dir/src/model/entry.cpp.o.d"
+  "CMakeFiles/kvdb.dir/src/model/value.cpp.o"
+  "CMakeFiles/kvdb.dir/src/model/value.cpp.o.d"
+  "CMakeFiles/kvdb.dir/src/net/protocol.cpp.o"
+  "CMakeFiles/kvdb.dir/src/net/protocol.cpp.o.d"
+  "CMakeFiles/kvdb.dir/src/net/server.cpp.o"
+  "CMakeFiles/kvdb.dir/src/net/server.cpp.o.d"
+  "CMakeFiles/kvdb.dir/src/utils/hash.cpp.o"
+  "CMakeFiles/kvdb.dir/src/utils/hash.cpp.o.d"
+  "CMakeFiles/kvdb.dir/src/utils/logger.cpp.o"
+  "CMakeFiles/kvdb.dir/src/utils/logger.cpp.o.d"
+  "libkvdb.a"
+  "libkvdb.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/kvdb.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

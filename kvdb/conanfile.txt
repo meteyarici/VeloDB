@@ -1,0 +1,12 @@
+[requires]
+asio/1.30.2
+xxhash/0.8.2
+gtest/1.15.0
+
+[generators]
+CMakeToolchain
+CMakeDeps
+
+[options]
+gtest/*:shared=False
+

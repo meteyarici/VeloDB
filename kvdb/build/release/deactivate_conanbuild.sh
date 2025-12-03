@@ -1,0 +1,1 @@
+. "/Users/pro/Works/VeloDB/kvdb/build/release/deactivate_conanbuildenv-release-x86_64.sh"

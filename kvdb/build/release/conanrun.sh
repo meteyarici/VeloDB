@@ -1,0 +1,1 @@
+. "/Users/pro/Works/VeloDB/kvdb/build/release/conanrunenv-release-x86_64.sh"
