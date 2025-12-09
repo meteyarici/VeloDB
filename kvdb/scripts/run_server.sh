@@ -19,3 +19,4 @@ fi
 echo "Running kvdb-server from $BUILD_DIR..."
 "$BUILD_DIR/kvdb-server"
 
+

@@ -52,10 +52,19 @@ std::string execute_command(Database& db, const std::vector<std::string>& args) 
     else if (cmd == "PING") {
         return "PONG\n";
     }
+    else if (cmd == "INFO") {
+        auto info = db.get_info();
+        std::stringstream ss;
+        ss << "used_memory:" << info.used_memory << "\n";
+        ss << "max_memory:" << info.max_memory << "\n";
+        ss << "db_keys:" << info.keys << "\n";
+        return ss.str();
+    }
     else {
         return "ERROR: Unknown command or invalid arguments\n";
     }
 }
 
 } // namespace kvdb::net
+
 

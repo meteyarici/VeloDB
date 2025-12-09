@@ -30,10 +30,18 @@ public:
 
     bool expire(std::string_view key, std::chrono::seconds ttl);
 
+    struct Info {
+        std::size_t used_memory{0};
+        std::size_t max_memory{0};
+        std::size_t keys{0};
+    };
+    Info get_info() const;
+
 private:
     struct Impl;
     Impl* impl_;
 };
 
 } // namespace kvdb
+
 

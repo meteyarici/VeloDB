@@ -28,3 +28,4 @@ cmake --build . --config Release
 
 echo "Build complete! Executable: $BUILD_DIR/kvdb-server"
 
+
