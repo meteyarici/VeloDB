@@ -1,0 +1,1 @@
+/usr/bin/c++ -m64 -stdlib=libc++ -O3 -DNDEBUG -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -m64 "CMakeFiles/kvdb-server.dir/src/main.cpp.o" -o kvdb-server  libkvdb.a
