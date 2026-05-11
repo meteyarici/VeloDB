@@ -46,9 +46,11 @@ add_executable(kvdb-server
 )
 
 find_package(asio REQUIRED)
+find_package(xxHash REQUIRED CONFIG)
 
 target_link_libraries(kvdb
     PUBLIC asio::asio
+    PRIVATE xxHash::xxhash
 )
 
 target_link_libraries(kvdb-server
